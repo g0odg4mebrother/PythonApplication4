@@ -24,11 +24,11 @@ while running:
 
     screen.fill(BLACK)
 
-    pygame.draw.circle(screen, BLUE, (200, 150), 50)   # Первый круг
-    pygame.draw.circle(screen, YELLOW, (600, 150), 75) # Второй круг
+    pygame.draw.circle(screen, BLUE, (200, 150), 50)   
+    pygame.draw.circle(screen, YELLOW, (600, 150), 75) 
 
-    pygame.draw.line(screen, RED, (200, 150), (600, 400), 4)   # Первая линия
-    pygame.draw.line(screen, PURPLE, (500, 450), (600, 400), 6) # Вторая линия
+    pygame.draw.line(screen, RED, (200, 150), (600, 400), 4)  
+    pygame.draw.line(screen, PURPLE, (500, 450), (600, 400), 6)
 
     rect1 = pygame.Rect(100, 450, 80, 80)
     rect2 = pygame.Rect(600, 450, 120, 120)
